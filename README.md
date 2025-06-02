@@ -7,6 +7,7 @@ This Chrome Extension automatically extracts comments from Instagram posts, one 
 - ✅ Automatically loads and scrolls through all comments on a post
 - ✅ Extracts: 
   - Username
+  - Shortcode
   - Comment text
   - Timestamp
   - Likes count
