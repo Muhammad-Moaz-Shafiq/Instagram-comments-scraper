@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram Comment Scraper",
+  "version": "1.0",
+  "description": "Scrapes Instagram post comments and saves to JSON.",
+  "permissions": ["activeTab", "scripting","downloads"],
+  "action": {
+    "default_title": "Scrape Instagram Comments"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.instagram.com/p/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": ["*://www.instagram.com/*"]
+}
