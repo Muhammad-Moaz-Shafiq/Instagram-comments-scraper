@@ -1,6 +1,6 @@
 # Instagram Post Data Scraper Extension
 
-This Chrome Extension automatically extracts comments from Instagram posts, one by one, directly from any profile. It scrolls through all comments, extracts relevant data, and saves the results to a file on your device.
+This Chrome Extension automatically extracts comments from Instagram posts, one by one, directly from any profile. It scrolls through all comments, extracts, and saves the results to a file in JSON format  on your device.
 
 ## 🚀 Features
 
